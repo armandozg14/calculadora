@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     @IBAction func doChangeSlider(_ sender: Any) {
         
         let miString = "74.4"
-        let miFloat = Float(miString)
+        _ = Float(miString)
         
         lblPorcentajePropina.text = "\(Int(sldPropina.value))%"
         let cuenta = Float(txtfDinero.text!) ??
